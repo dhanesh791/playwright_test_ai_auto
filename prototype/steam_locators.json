@@ -1,0 +1,238 @@
+{
+  "url": "https://store.steampowered.com/login/?redir=&redir_ssl=1",
+  "semantic_targets": [
+    "login.username",
+    "login.password",
+    "login.submit"
+  ],
+  "resolution": {
+    "login.username": {
+      "status": "resolved",
+      "confidence": 0.71,
+      "matched_hints": [
+        "account name",
+        "sign in"
+      ],
+      "score": 10,
+      "max_score": 14,
+      "node": {
+        "tag": "input",
+        "type": "text",
+        "attrs": {
+          "class": "_2GBWeup5cttgbTw8FM3tfx"
+        },
+        "ancestor_texts": [
+          "SIGN IN WITH ACCOUNT NAME",
+          "SIGN IN WITH ACCOUNT NAME\nPASSWORD\nRemember me\nSign in\n\u00a0\nHelp, I can't sign in"
+        ]
+      },
+      "primary": {
+        "selector": "css=div._3BkiHun-mminuTO-Y-zXke input[type=\"text\"]",
+        "strategy": "css",
+        "description": "ancestor class _3BkiHun-mminuTO-Y-zXke",
+        "count": 1,
+        "unique": true,
+        "error": null
+      },
+      "candidates": [
+        {
+          "selector": "css=div._3BkiHun-mminuTO-Y-zXke input[type=\"text\"]",
+          "strategy": "css",
+          "description": "ancestor class _3BkiHun-mminuTO-Y-zXke",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div:has-text(\"SIGN IN WITH ACCOUNT NAME\") >> css=input[type=\"text\"]",
+          "strategy": "css",
+          "description": "ancestor text contains 'SIGN IN WITH ACCOUNT NAME'",
+          "count": 2,
+          "unique": false,
+          "error": null
+        },
+        {
+          "selector": "css=form._2v60tM463fW0V7GDe92E5f input[type=\"text\"]",
+          "strategy": "css",
+          "description": "ancestor class _2v60tM463fW0V7GDe92E5f",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div.ZHRZ8czyqs7NaNmv65ARI input[type=\"text\"]",
+          "strategy": "css",
+          "description": "ancestor class ZHRZ8czyqs7NaNmv65ARI",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div._3XCnc4SuTz8V8-jXVwkt_s input[type=\"text\"]",
+          "strategy": "css",
+          "description": "ancestor class _3XCnc4SuTz8V8-jXVwkt_s",
+          "count": 1,
+          "unique": true,
+          "error": null
+        }
+      ]
+    },
+    "login.password": {
+      "status": "resolved",
+      "confidence": 1.0,
+      "matched_hints": [
+        "password",
+        "sign in"
+      ],
+      "score": 10,
+      "max_score": 10,
+      "node": {
+        "tag": "input",
+        "type": "password",
+        "attrs": {
+          "class": "_2GBWeup5cttgbTw8FM3tfx"
+        },
+        "ancestor_texts": [
+          "PASSWORD",
+          "SIGN IN WITH ACCOUNT NAME\nPASSWORD\nRemember me\nSign in\n\u00a0\nHelp, I can't sign in"
+        ]
+      },
+      "primary": {
+        "selector": "css=div._3BkiHun-mminuTO-Y-zXke input[type=\"password\"]",
+        "strategy": "css",
+        "description": "ancestor class _3BkiHun-mminuTO-Y-zXke",
+        "count": 1,
+        "unique": true,
+        "error": null
+      },
+      "candidates": [
+        {
+          "selector": "css=div._3BkiHun-mminuTO-Y-zXke input[type=\"password\"]",
+          "strategy": "css",
+          "description": "ancestor class _3BkiHun-mminuTO-Y-zXke",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div:has-text(\"PASSWORD\") >> css=input[type=\"password\"]",
+          "strategy": "css",
+          "description": "ancestor text contains 'PASSWORD'",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=form._2v60tM463fW0V7GDe92E5f input[type=\"password\"]",
+          "strategy": "css",
+          "description": "ancestor class _2v60tM463fW0V7GDe92E5f",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div.ZHRZ8czyqs7NaNmv65ARI input[type=\"password\"]",
+          "strategy": "css",
+          "description": "ancestor class ZHRZ8czyqs7NaNmv65ARI",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div._3XCnc4SuTz8V8-jXVwkt_s input[type=\"password\"]",
+          "strategy": "css",
+          "description": "ancestor class _3XCnc4SuTz8V8-jXVwkt_s",
+          "count": 1,
+          "unique": true,
+          "error": null
+        }
+      ]
+    },
+    "login.submit": {
+      "status": "resolved",
+      "confidence": 0.67,
+      "matched_hints": [
+        "sign in"
+      ],
+      "score": 8,
+      "max_score": 12,
+      "node": {
+        "tag": "button",
+        "type": "submit",
+        "attrs": {
+          "class": "DjSvCZoKKfoNSmarsEcTS"
+        },
+        "ancestor_texts": [
+          "Sign in",
+          "SIGN IN WITH ACCOUNT NAME\nPASSWORD\nRemember me\nSign in\n\u00a0\nHelp, I can't sign in"
+        ]
+      },
+      "primary": {
+        "selector": "css=div._16fbihk6Bi9CXuksG7_tLt button[type=\"submit\"]",
+        "strategy": "css",
+        "description": "ancestor class _16fbihk6Bi9CXuksG7_tLt",
+        "count": 1,
+        "unique": true,
+        "error": null
+      },
+      "candidates": [
+        {
+          "selector": "css=div._16fbihk6Bi9CXuksG7_tLt button[type=\"submit\"]",
+          "strategy": "css",
+          "description": "ancestor class _16fbihk6Bi9CXuksG7_tLt",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div:has-text(\"Sign in\") >> css=button[type=\"submit\"]",
+          "strategy": "css",
+          "description": "ancestor text contains 'Sign in'",
+          "count": 2,
+          "unique": false,
+          "error": null
+        },
+        {
+          "selector": "css=form._2v60tM463fW0V7GDe92E5f button[type=\"submit\"]",
+          "strategy": "css",
+          "description": "ancestor class _2v60tM463fW0V7GDe92E5f",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div.ZHRZ8czyqs7NaNmv65ARI button[type=\"submit\"]",
+          "strategy": "css",
+          "description": "ancestor class ZHRZ8czyqs7NaNmv65ARI",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "css=div._3XCnc4SuTz8V8-jXVwkt_s button[type=\"submit\"]",
+          "strategy": "css",
+          "description": "ancestor class _3XCnc4SuTz8V8-jXVwkt_s",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "role=button[name=\"Sign in\"]",
+          "strategy": "role",
+          "description": "button accessible name",
+          "count": 1,
+          "unique": true,
+          "error": null
+        },
+        {
+          "selector": "text=Sign in",
+          "strategy": "text",
+          "description": "text matcher",
+          "count": 6,
+          "unique": false,
+          "error": null
+        }
+      ]
+    }
+  }
+}
